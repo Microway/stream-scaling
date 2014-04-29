@@ -271,7 +271,7 @@ function stream_array_elements {
 
 echo === CPU cache information ===
 stream_array_elements ARRAY_SIZE
-ARRAY_FLAG="-DN=$ARRAY_SIZE"
+ARRAY_FLAG="-D STREAM_ARRAY_SIZE=$ARRAY_SIZE"
 if [ -n "$DEBUG" ] ; then
   echo Array size is $ARRAY_SIZE
   echo Array flag is $ARRAY_FLAG
